@@ -1,10 +1,8 @@
 # Blinkit Sales Dashboard
 
-An interactive Power BI dashboard that analyses grocery sales across outlets, item categories and locations.
+A Power BI dashboard that analyses grocery sales across outlets, item categories and locations.
 
-**[View the live dashboard](https://YOUR-USERNAME.github.io/blinkit-dashboard/)** (replace with your GitHub Pages link)
-
-![Dashboard preview](images/dashboard.png)
+![Dashboard overview](images/dashboard.png)
 
 ## What it shows
 
@@ -29,26 +27,22 @@ An interactive Power BI dashboard that analyses grocery sales across outlets, it
 - Item Type
 - Metric selector
 
-## Files
+## Screenshots
 
-| File | Purpose |
-|------|---------|
-| `blinkit_dashboard.pbix` | The Power BI report. Open it in Power BI Desktop (Windows). |
-| `index.html` | GitHub Pages page that embeds the live report. |
-| `images/` | Screenshots used in this README. |
+| Filtered by outlet size | Filtered by item type |
+|---|---|
+| ![Outlet size filter](images/screenshot-2.png) | ![Item type filter](images/screenshot-3.png) |
 
-## How to use
+## How to open the dashboard
 
-1. Download `blinkit_dashboard.pbix`.
-2. Open it in [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-3. Use the slicers to filter the charts.
-
-Or open the live dashboard link above, which needs no installation.
+1. Click `blinkit_dashboard.pbix` above, then click **Download raw file** (the download icon at the top right).
+2. Open the file in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free, Windows only).
+3. Click the slicers to filter the charts.
 
 ## Data
 
 - **Source:** add where the data came from (for example, a Kaggle dataset link).
-- **Note:** the data is imported into the .pbix, so anyone who downloads the file can see it.
+- **Note:** the data is stored inside the .pbix file, so anyone who downloads it can see it.
 
 ## Tools
 
